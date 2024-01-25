@@ -1,7 +1,19 @@
 import math
 
 ###############################################################################
-# TODO: 1. (3 pts)
+# DONE: 1. (3 pts)
+print(type(3.14))
+print(type("hello"))
+print(type('hello'))
+print(type("a b c"))
+print(type(3+3))
+print(type("3"+"3"))
+print(type( 2 ** 100))
+print(type(math.sin(8)))
+print(type(math.sin))
+print(type(print))
+print(type(math))
+print(type('math'))
 #   Every object has a TYPE and a VALUE.  For example,
 #   for the object that is computed by  math.sqrt(2):
 #      Its TYPE is float  (which is shorthand for "floating point number")
@@ -42,7 +54,8 @@ import math
 ###############################################################################
 
 ###############################################################################
-# TODO: 2. (1 pt)
+# DONE: 2. (1 pt)
+print(type(round(2.75)))
 #   As you can see from the first _TODO_, there is an important difference
 #   between a  float  type and an  integer  type. Floats can have decimals 
 #   while integer are just that, integers.
@@ -61,7 +74,12 @@ import math
 ###############################################################################
 
 ###############################################################################
-# TODO: 3. (1 pt)
+# DONE: 3. (1 pt)
+print(int(2.75))
+print(type(int(2.75)))
+print(int(26.78))
+print(type(26))
+
 #   We can also manually convert an object from one type to another. This is 
 #   also called casting.
 #
